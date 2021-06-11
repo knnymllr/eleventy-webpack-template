@@ -1,0 +1,24 @@
+/* https://toolness.github.io/accessible-color-matrix/ */
+
+:root {
+    --dark: #292929;
+    --light: #F9F9FF;
+    --mid-dark: #585858;
+    --mid-light: #e2e2e2;    
+}
+
+/* .theme-monochrome {
+    --dark: #000000;
+    --light: #FFFFFF;
+    --mid-dark: #292929;
+    --mid-light: #f3f3f3;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --dark: #000000;
+        --light: #FFFFFF;
+        --mid-dark: #292929;
+        --mid-light: #f3f3f3;
+    }
+} */

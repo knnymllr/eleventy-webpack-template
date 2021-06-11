@@ -1,0 +1,7 @@
+.nav-cont {
+    background:var(--mid-light);
+    /* margin: var(--mp-xl) var(--mp-xl) 0 0; */
+    min-height:500px;
+    grid-column: 9/-1;
+    /* background:inherit; */
+}

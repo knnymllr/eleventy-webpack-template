@@ -1,0 +1,27 @@
+.flex {
+    display:flex;
+    padding:var(--mp-large);
+}
+
+.flex-end {
+    justify-content:flex-end;
+}
+
+/* Gap n'sync with margin/padding Values, apply to flex or grid */
+
+.gap-xs {
+    gap:var(--mp-small);
+}
+
+.gap-small {
+    gap:var(--mp-mid);
+}
+
+.gap-mid {
+    gap:var(--mp-large);
+}
+
+.gap-large {
+    gap:var(--mp-xl);
+}
+
