@@ -1,0 +1,3 @@
+.main-home hr + h1 {
+    padding-left:var(--mp-mid);
+}

@@ -18,6 +18,7 @@
 @import 'layouts/base';
 @import 'layouts/header';
 @import 'layouts/navigation';
+@import 'layouts/index';
 @import 'layouts/footer';
 
 /* PRINT ALWAYS LAST */
