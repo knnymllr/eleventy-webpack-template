@@ -3,15 +3,17 @@ layout: base
 ---
 
 <div class="grid">
-    <div class="big:grid-cols-full">{{ content | safe }}</div>
+    <div class="big:grid-cols-full dyslexic">{{ content | safe }}</div>
 </div>
 
-<div style="background-color: red; min-width: 100%; min-height: 100px"></div>
+<hr>
 
-<section class="grid">
-  <div class="big:grid-cols-quarter" style="height:50px; background-color:blue;"></div>
-  <div class="big:grid-cols-quarter" style="background-color:green;"></div>
-  <div class="big:grid-cols-quarter" style="background-color:yellow;"></div>
-  <div class="big:grid-cols-quarter" style="background-color:purple;"></div>
+<section class="grid grid-height">
+  <div class="grid-cols-qtr big:grid-cols-half" style="height:50px; background:blue;"></div>
+  <div class="grid-cols-qtr big:grid-cols-quarter" style="background:green;"></div>
+  <div class="grid-cols-half big:grid-cols-quarter" style="background:yellow;"></div>
+  <div class="grid-cols-thr-qtr big:grid-cols-quarter" style="background:purple;"></div>
+  <div class="big:grid-cols-thr-qtr" style="background: orange;"></div>
+  <div class="big:grid-cols-quarter"></div>
 
 </section>

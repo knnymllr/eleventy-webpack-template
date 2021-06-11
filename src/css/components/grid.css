@@ -1,8 +1,17 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:0;
+    gap: var(--mp-small);
+    padding: var(--mp-small);
 }
+
+/* EXAMPLE PURPOSES ONLY  */
+
+.grid-height div {
+    min-height:50px;
+}
+
+/* END */
 
 @media (min-width: 768px) {
     .grid {
@@ -29,6 +38,10 @@
     
 }
 
+.grid-cols-thr-qtr {
+    grid-column: span 3 / span 3;
+}
+
 .grid-standard-mb {
     margin-bottom: var(--mp-large);
 }
@@ -41,6 +54,10 @@
 
     .big\:grid-cols-half {
         grid-column: span 6 / span 6;
+    }
+
+    .big\:grid-cols-thr-qtr {
+        grid-column: span 9 / span 9;
     }
 
     .big\:grid-cols-quarter {
