@@ -1,5 +1,5 @@
 # Static Website Template
 
-## Eleventy, Webpack, Sass, and more
+## Eleventy, Webpack, and more
 
 Run `npm install` in project root directory.
